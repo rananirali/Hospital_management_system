@@ -1,0 +1,25 @@
+<hibernate-mapping>
+    <class name="com.mycompany.h_m_s.beans.Admin" table="AdminsData">
+        
+        <id name="id" column="id" type="int">
+            <generator class="identity"/>
+        </id>
+
+       <property name="name" type="string">
+            <column name="name"/>
+        </property>
+
+        <property name="email" type="string">
+            <column name="email"/>
+        </property>
+
+        <property name="contact" type="string">
+            <column name="contact"/>
+        </property>
+
+        <property name="password" type="string">
+            <column name="password"/>
+        </property>
+
+    </class>
+</hibernate-mapping>

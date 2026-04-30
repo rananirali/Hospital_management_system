@@ -1,0 +1,38 @@
+<hibernate-mapping>
+    <class name="com.mycompany.h_m_s.beans.Doctor" table="Doctor">
+        
+        <id name="id" column="id" type="int">
+            <generator class="identity"/>
+        </id>
+
+        <property name="name" type="string">
+            <column name="name"/>
+        </property>
+
+        <property name="email" type="string">
+            <column name="email"/>
+        </property>
+
+        <property name="contact" type="string">
+            <column name="contact"/>
+        </property>
+
+        <property name="password" type="string">
+            <column name="password"/>
+        </property>
+
+        <property name="specialization" type="string">
+            <column name="specialization"/>
+        </property>
+
+        <property name="availabledays" type="string">
+            <column name="available_days"/>
+        </property>
+
+        <property name="availabletime" type="string">
+            <column name="available_time"/>
+        </property>
+
+
+    </class>
+</hibernate-mapping>
