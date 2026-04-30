@@ -1,0 +1,4 @@
+com\mycompany\hms\DoctorDB.class
+com\mycompany\hms\MedicineDB.class
+com\mycompany\hms\PatientDB.class
+com\mycompany\hms\HospitalManagementSystem.class
