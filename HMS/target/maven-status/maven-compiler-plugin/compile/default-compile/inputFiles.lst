@@ -1,0 +1,16 @@
+C:\HMS\src\main\java\com\mycompany\hms\servlets\EditScreenServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\resources\JakartaEE10Resource.java
+C:\HMS\src\main\java\com\mycompany\hms\beans\Bean.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\DoctorDashboardServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\DeletePatientServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\UpdatePatientServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\helper\DBService.java
+C:\HMS\src\main\java\com\mycompany\hms\aspect\LoggingAspect.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\EditScreenPatientServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\JakartaRestConfiguration.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\DeleteServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\PatientDashboardServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\UpdateServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\LoginServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\SignUpServlet.java
+C:\HMS\src\main\java\com\mycompany\hms\servlets\AdminServlet.java

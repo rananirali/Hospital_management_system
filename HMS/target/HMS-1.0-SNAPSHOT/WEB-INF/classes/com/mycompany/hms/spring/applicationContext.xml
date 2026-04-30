@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans 
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/aop 
+            http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="dbService" class="com.mycompany.hms.helper.DBService">
+    <property name="url" value="jdbc:mysql://localhost:3306/hospitalDB"/>
+    <property name="username" value="root"/>
+    <property name="password" value="Nirali155"/>
+    </bean>  
+                                      
+    <!-- Aspect Bean -->
+    <bean id="loggingAspect" class="com.mycompany.hms.aspect.LoggingAspect"/>
+
+    <!-- LoginBean Bean with Constructor Injection -->
+<!--    <bean id="Bean" class="com.mycompany.hms.beans.Bean">
+        <constructor-arg type="int" value="1"/> 
+        <constructor-arg value="Nirali"/>
+        <constructor-arg value="n@gmail.com"/>
+        <constructor-arg value="9687354650"/> 
+        <constructor-arg value="150506"/> 
+    </bean>-->
+    
+<!--    <bean id="loginBean1" class="com.gecp.bean.LoginBean">
+        <constructor-arg type="int" value="-99"/>  id 
+        <constructor-arg value="john"/>  userName 
+        <constructor-arg value="securePass123"/>  password 
+        <constructor-arg type="int" value="30"/>  age 
+    </bean>-->
+    
+    <!-- Enable AOP -->
+    <aop:aspectj-autoproxy/>
+</beans>

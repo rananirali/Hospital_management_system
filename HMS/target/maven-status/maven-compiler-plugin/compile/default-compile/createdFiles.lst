@@ -1,0 +1,16 @@
+com\mycompany\hms\servlets\PatientDashboardServlet.class
+com\mycompany\hms\servlets\DeleteServlet.class
+com\mycompany\hms\servlets\UpdateServlet.class
+com\mycompany\hms\servlets\UpdatePatientServlet.class
+com\mycompany\hms\servlets\AdminServlet.class
+com\mycompany\hms\servlets\LoginServlet.class
+com\mycompany\hms\beans\Bean.class
+com\mycompany\hms\helper\DBService.class
+com\mycompany\hms\servlets\DoctorDashboardServlet.class
+com\mycompany\hms\aspect\LoggingAspect.class
+com\mycompany\hms\servlets\SignUpServlet.class
+com\mycompany\hms\JakartaRestConfiguration.class
+com\mycompany\hms\resources\JakartaEE10Resource.class
+com\mycompany\hms\servlets\EditScreenServlet.class
+com\mycompany\hms\servlets\DeletePatientServlet.class
+com\mycompany\hms\servlets\EditScreenPatientServlet.class
