@@ -1,0 +1,12 @@
+com\mycompany\h_m_s\servlets\FinalEditServlet.class
+com\mycompany\h_m_s\servlets\AdminServlet.class
+com\mycompany\h_m_s\servlets\FinalEditPatientServlet.class
+com\mycompany\h_m_s\servlets\LoginServlet.class
+com\mycompany\h_m_s\resources\JakartaEE10Resource.class
+com\mycompany\h_m_s\servlets\EditPatientServlet.class
+com\mycompany\h_m_s\servlets\DeletePatientServlet.class
+com\mycompany\h_m_s\helpers\Helper.class
+com\mycompany\h_m_s\servlets\DeleteServlet.class
+com\mycompany\h_m_s\beans\Bean.class
+com\mycompany\h_m_s\servlets\EditServlet.class
+com\mycompany\h_m_s\servlets\SignUpServlet.class
